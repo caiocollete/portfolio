@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: #21243D;
+    font-family: Inter;
+}
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10000;
+    box-shadow: -3px 1px 24px -7px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    height: 52px;
+    background-color: white;
+}
+
+.itens{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+.itens a{
+    text-decoration: none;
+    font-size: 0px;
+    transition: font-size 0.3s;
+}
+
+.icon{
+    margin: 0px 5px 0px 0px;
+    font-size: 20px;
+}
+
+.itens:hover a{
+    font-size: 14px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 50px 50px;
+}
+
+.avtr {
+    border-radius: 243px;
+    margin: 50px;
+    height: 200px;
+    width: auto;
+}
+
+.c1{
+    display: flex;
+    align-items: center;
+}
+
+.a1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.works{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #EDF7FA;
+    width: 100%;
+    padding: 36px 0px;
+}
+
+.projects{
+    display: flex;
+    margin: 50px;
+}
+
+.projects img{
+    border-radius: 10px;
+    height: 200px;
+}
+
+
+
+.aboutProject{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    text-decoration: none;
+    width: 500px;
+    margin: 10px;
+}
+
+.aboutProject ul{
+    margin: 0px 24px;
+}
+
+.tit{
+    display: flex;
+    align-items: center;
+    
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 10%;
+    height: 24px;
+
+    margin: 0px 10px;
+    background-color: #21243D;
+    border-radius: 10px;
+    color:#EDF7FA;
+    font-weight: 500;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+
+.medias{
+    padding: 5px;
+    font-size: 32px;
+    margin: 0px 0px 0px 16px;
+    transition: font-size 0.2s;
+}
+
+.medias:hover{
+    font-size: 40px;
+}
